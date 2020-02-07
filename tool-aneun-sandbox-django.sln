@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tool-aneun-sandbox-django", "tool-aneun-sandbox-django.pyproj", "{7F064016-D75C-436B-AD27-D8F5215AC383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F064016-D75C-436B-AD27-D8F5215AC383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F064016-D75C-436B-AD27-D8F5215AC383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F064016-D75C-436B-AD27-D8F5215AC383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F064016-D75C-436B-AD27-D8F5215AC383}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBDA143C-3C97-4A51-8290-D57F8AC2FC6B}
+	EndGlobalSection
+EndGlobal
