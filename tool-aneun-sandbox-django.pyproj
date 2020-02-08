@@ -3,7 +3,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Name>tool-aneun-sandbox-django</Name>
     <RootNamespace>tool-aneun-sandbox-django</RootNamespace>
-    <InterpreterId>MSBuild|env-django-sandbox|$(MSBuildProjectFullPath)</InterpreterId>
+    <InterpreterId>MSBuild|env-heroku|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -228,7 +228,6 @@
     <Compile Include="pages\urls.py" />
     <Compile Include="pages\views.py" />
     <Compile Include="pages\__init__.py" />
-    <Compile Include="sandbox_project\settings-production.py" />
     <Compile Include="sandbox_project\settings.py" />
     <Compile Include="sandbox_project\urls.py" />
     <Compile Include="sandbox_project\wsgi.py" />
@@ -282,10 +281,10 @@
     <Folder Include="users\__pycache__\" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="..\env-django-sandbox\">
-      <Id>env-django-sandbox</Id>
+    <Interpreter Include="..\env-heroku\">
+      <Id>env-heroku</Id>
       <Version>3.7</Version>
-      <Description>env-django-sandbox (Python 3.7 (64-bit))</Description>
+      <Description>env-heroku (Python 3.7 (64-bit))</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
