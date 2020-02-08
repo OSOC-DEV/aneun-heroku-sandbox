@@ -1,0 +1,1 @@
+web: gunicorn sandbox_project.wsgi --log-file -

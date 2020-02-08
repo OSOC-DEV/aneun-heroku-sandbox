@@ -32,6 +32,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="app.json">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="LICENSE" />
     <Content Include="pages\migrations\__pycache__\__init__.cpython-38.pyc" />
     <Content Include="pages\__pycache__\admin.cpython-38.pyc" />
@@ -39,6 +42,7 @@
     <Content Include="pages\__pycache__\urls.cpython-38.pyc" />
     <Content Include="pages\__pycache__\views.cpython-38.pyc" />
     <Content Include="pages\__pycache__\__init__.cpython-38.pyc" />
+    <Content Include="Procfile.windows" />
     <Content Include="readme.md" />
     <Content Include="requirements.txt" />
     <Content Include="sandbox_project\__pycache__\settings.cpython-38.pyc" />
@@ -228,6 +232,9 @@
     <Compile Include="pages\urls.py" />
     <Compile Include="pages\views.py" />
     <Compile Include="pages\__init__.py" />
+    <Compile Include="Procfile">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sandbox_project\settings.py" />
     <Compile Include="sandbox_project\urls.py" />
     <Compile Include="sandbox_project\wsgi.py" />

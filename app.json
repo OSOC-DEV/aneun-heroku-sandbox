@@ -1,0 +1,22 @@
+{
+  "name": "A-NEUN's Sandbox",
+  "description": "A-NEUN's Sandbox for fiddling with Django",
+  "image": "heroku/python",
+  "repository": "https://github.com/OSOC-DEV/aneun-heroku-sandbox",
+  "keywords": [ "python", "django" ],
+  "addons": [ "heroku-postgresql" ],
+  "env": {
+    "SECRET_KEY": {
+      "description": "The secret key for the Django application.",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "python manage.py collectstatic --noinput",
+        "test": "python manage.py test"
+      }
+    }
+  }
+}
