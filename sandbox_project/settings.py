@@ -27,8 +27,6 @@ SECRET_KEY = '43)%4yx)aa@a=+_c(fn&kf3g29xax+=+a&key9i=!98zyim=8j'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'tools.wmflabs.org',
-    'localhost',
 ]
 
 
